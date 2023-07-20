@@ -134,6 +134,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # release created from previous step
-          asset_path: ./studentified/cmt-template-scala3-linearized.zip
+          asset_path: ./studentified/cmt-template-scala3-studentified.zip
+          asset_name: cmt-template-scala3-studentified.zip
+          asset_content_type: application/zip
+
+      - name: Upload Linearized repo to Github release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # release created from previous step
+          asset_path: ./linearized/cmt-template-scala3-linearized.zip
           asset_name: cmt-template-scala3-linearized.zip
           asset_content_type: application/zip
+
+
