@@ -135,7 +135,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # release created from previous step
           asset_path: ./studentified/cmt-template-scala3-studentified.zip
-          asset_name: cmt-template-scala3-studentified.zip
+          asset_name: cmt-template-scala3-student.zip
           asset_content_type: application/zip
 
       - name: Upload Linearized repo to Github release
