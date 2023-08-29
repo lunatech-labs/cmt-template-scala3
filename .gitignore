@@ -1,13 +1,20 @@
 *.class
 *.log
 .bookmark
+hypriot.img
+collectedLogs/
+collectedLogs.zip
 
-# Metals/BSP
+# VSCode specific
+.vscode
+*.code-workspace
+
+# Metals/Bloop/sbt BSP specific
+.bloop/
+.metals/
+.swp
 .bsp
-metals.sbt
-
-# scala-cli
-
+**/project/metals.sbt
 **/.scala-build
 
 # sbt specific
@@ -29,6 +36,8 @@ project/plugins/project/
 .classpath
 .project
 .settings/
+.cache-main
+.cache-tests
 
 # Intellij specific
 *.iml
@@ -40,4 +49,8 @@ project/plugins/project/
 *.sublime-workspace
 
 # OS specific
-.DS_Store
+**/.DS_Store
+**/__MACOSX
+
+# Other
+Preci*.pdf
