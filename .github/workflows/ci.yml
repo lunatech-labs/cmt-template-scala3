@@ -87,7 +87,7 @@ jobs:
         uses: robinraju/release-downloader@v1.7
         with:
           repository: lunatech-labs/course-management-tools
-          tag: "2.0.0"
+          tag: "2.0.19"
           fileName: "course-management-tools.zip"
           out-file-path: "."
       - run: |
