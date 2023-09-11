@@ -15,7 +15,7 @@ numbers starting from 2 upto a given number.
 
 # Steps
 
-- Create a new object `SumOfPrimes`
+- Create a new object `Primes`
 - Define a method `sumOfPrimesBelow` with a single parameter
  `limit` of type `Int`.
 - Implement the method to return the sum of all primes numbers

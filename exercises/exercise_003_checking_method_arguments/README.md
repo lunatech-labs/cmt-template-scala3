@@ -1,4 +1,4 @@
-# Calculating prime factors for a give number
+# Calculating prime factors for a given number
 
 The [Fundamental theorem of Mathematics](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic) states that
 
